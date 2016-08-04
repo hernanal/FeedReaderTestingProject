@@ -13,7 +13,7 @@ All files for this project were cloned from the [this](https://github.com/udacit
 
 	1. Clone the repository.
 	2. Open the folder on your computer.
-	3. Open the *index.html* file.
+	3. Open the index.html file.
 
 ## References and Resources
 
@@ -23,4 +23,4 @@ All files for this project were cloned from the [this](https://github.com/udacit
 
 - [Udacity Discussion Forum](https://discussions.udacity.com/c/nd001-feed-reader-testing?_ga=1.203800976.1468278463.1459116530)
 
--[Jasmine jQuery](https://github.com/velesin/jasmine-jquery)
+- [Jasmine jQuery](https://github.com/velesin/jasmine-jquery)
