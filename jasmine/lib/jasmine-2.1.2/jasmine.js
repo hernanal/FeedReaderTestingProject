@@ -74,6 +74,7 @@ getJasmineRequireObj().requireMatchers = function(jRequire, j$) {
       'toBe',
       'toBeCloseTo',
       'toBeDefined',
+      'toHaveClass',
       'toBeFalsy',
       'toBeGreaterThan',
       'toBeLessThan',
@@ -2406,6 +2407,20 @@ getJasmineRequireObj().toBeDefined = function() {
   }
 
   return toBeDefined;
+};
+
+getJasmineRequireObj().toHaveClass = function() {
+  function toHaveClass() {
+    return {
+      compare: function (actual, className) {
+        return { 
+          pass: $(actual).hasClass(className) 
+        };
+      }
+    };
+  }
+
+  return toHaveClass;
 };
 
 getJasmineRequireObj().toBeFalsy = function() {
